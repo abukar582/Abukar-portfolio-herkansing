@@ -1,0 +1,27 @@
+body{
+    background: rgb(34, 36, 21);
+    background: linear-gradient(0deg, rgb(43, 41, 31) 0%, rgb(88, 81, 58) 29%, rgb(137, 131, 90) 56%, rgb(156, 144, 121) 100%);
+}
+/* */
+main{
+    width: 70vw;
+    margin: 0 auto;
+    margin-top: 10vw;
+    background-color: #ffffff;
+    padding-left: 15px;
+    padding-top: 10px;
+    color:#000000;
+    font-weight: 500;
+  }
+  
+  
+  .form-element, .text{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+  }
+  
+  label, input, select, .checkbox{
+    flex: 1;
+    padding: 15px;
+  }
